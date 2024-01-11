@@ -1,6 +1,6 @@
 import './globals.css';
-import MainHeader from '@/components/main-header';
-import Banner from '@/components/banner';
+import MainHeader from '@/components/main-header/main-header';
+import Banner from '@/components/main-header/banner';
 export const metadata = {
   title: 'NextLevel Food',
   description: 'Delicious meals, shared by a food-loving community.',
