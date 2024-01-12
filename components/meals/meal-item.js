@@ -13,7 +13,9 @@ export default function MealItem({
   return (
     <article className={styles.meal}>
       <header>
-        <Image src={image} alt={title} fill />
+        <div className={styles.image}>
+          <Image src={image} alt={title} fill />
+        </div>
         <div className={styles.headerText}>
           <h2>{title}</h2>
           <p>by {creator}</p>
