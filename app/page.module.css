@@ -73,3 +73,16 @@
   margin: 2rem auto;
   text-align: center;
 }
+
+@media screen and (max-width: 420px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .slideshow {
+    width: 20rem;
+    height: 25rem;
+  }
+}
