@@ -4,6 +4,12 @@ import styles from './page.module.css';
 import { getMeals } from '../../lib/meals';
 import { Suspense } from 'react';
 
+export const metadata = {
+  title: 'All Meals',
+  description:
+    'Browse the delicious meals served by our vibrant community.',
+};
+
 // async can be used on server components
 // Date fetching refactored into own component
 // Suspense component will trigger/show fallback content until done
